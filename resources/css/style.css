@@ -1,0 +1,51 @@
+html, body{
+  font-family:'Courier New', Courier, monospace;
+  font-size:20px;
+  text-align:center;
+  word-spacing:10%; 
+  letter-spacing: 1em; 
+  line-height:2em;
+}
+
+#processing{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:10px;
+    padding: 10px;
+    border: 10px dashed rgb(18, 18, 122);
+    margin: 10px;
+    background-color: rgb(139, 38, 211,1);
+    /* transparance only go from 0-1*/
+}
+
+#img{
+  padding:10%;
+  border:3px dotted rgb(18, 18, 122);
+  margin:10px;
+}
+
+#image1 img{
+  padding:5%;
+  border-image: url("../media/border.png") 30% round;
+  margin:5px;
+}
+
+#image2 img{
+  padding:10%;
+  border: 10px double rgb(162, 211, 38);
+  margin:10px;
+  background-image: url("../media/2.jpg");
+  background-size: cover;
+  opacity: 0.4;
+}
+
+#image3 img{
+  padding:15%;
+  border: 20px double rgb(139, 38, 211);
+  margin:15px;
+}
+
+#image4 img{
+  padding:20%;
+  border: 30px double rgb(34, 28, 28);
+  margin:20px;
+}
